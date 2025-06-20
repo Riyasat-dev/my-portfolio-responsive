@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>This is my personal website</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <a href="#home" class="nav__logo">Riyasat Ali</a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://mail.google.com/mail/u/0/?fs=1&amp;to=riyasatali2025.pk@gmail.com&amp;tf=cm"
+                class="nav__link"
+                target="_blank"
+                >Hire Me</a
+              >
+            </li>
+
+            <!-- ✅ Resume Button as List Item -->
+            <li class="nav__item nav__resume-btn">
+              <a href="assets/resume.pdf" download class="resume-download-btn">
+                <i class="fas fa-download" style="margin-right: 6px"></i> Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <i class="bx bx-moon change-theme" id="theme-button"></i>
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>HE</span><br />LLO.</h1>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+          <img
+            src="assets/img/WhatsApp_Image_2025-06-19_at_19.42.42_eaadbece-removebg-preview.png"
+            alt=""
+            class="home__img"
+          />
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img
+              src="assets/img/WhatsApp_Image_2025-06-19_at_19.42.42_eaadbece-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="about__subtitle">I'am Riyasat Ali</h2>
+            <span class="about__profession">
+              <span class="typing-text" id="typing"></span>
+            </span>
+            <p class="about__text">
+              Hi, I'm a self-motivated web developer based in Pakistan with a
+              strong passion for creating clean, user-focused digital
+              experiences. I enjoy solving real-world problems through code and
+              constantly exploring better ways to improve performance,
+              accessibility, and user interaction on the web.
+            </p>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            />
+            <a
+              href="https://www.linkedin.com/in/riyasatalishaikh/"
+              class="icon-link linkedin"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+            </a>
+
+            <a
+              href="https://github.com/Riyasat-dev"
+              class="icon-link github"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i><span>GitHub</span>
+            </a>
+
+            <a
+              href="https://www.facebook.com/here.riyasatali"
+              class="icon-link facebook"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i><span>Facebook</span>
+            </a>
+
+            <a
+              href="https://www.upwork.com/freelancers/~017df9651c71fb4e25"
+              class="icon-link upwork"
+              target="_blank"
+            >
+              <i class="fab fa-upwork"></i><span>UpWork</span>
+            </a>
+
+            <a
+              href="https://wa.me/923183219259"
+              class="icon-link whatsapp"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+        <div
+          class="about__doing"
+          style="margin-top: 2rem; display: flex; justify-content: center"
+        >
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 1.2rem;
+              max-width: 600px;
+              text-align: center;
+            "
+          >
+            <h3 class="about__subtitle" style="text-align: center">
+              What I'm doing
+            </h3>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+              "
+            >
+              <i class="bx bx-paint"></i>
+              <div>
+                <strong>Web Design</strong><br />
+                Creating modern, high-quality designs with attention to user
+                experience and visual appeal.
+              </div>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+              "
+            >
+              <i class="bx bx-code-alt"></i>
+              <div>
+                <strong>Web Development</strong><br />
+                Building responsive, performant websites with clean,
+                maintainable code.
+              </div>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+              "
+            >
+              <i class="bx bx-shopping-bag"></i>
+              <div>
+                <strong>E-Commerce Solutions</strong><br />
+                Developing powerful online stores with seamless shopping
+                experiences.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills section" id="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Education</h3>
+            <ul style="padding-left: 1rem; margin-bottom: 2rem">
+              <li class="education">
+                <h2>University of Sindh</h2>
+                <p style="margin-top: 5px; margin-bottom: 5px; font-size: 13px">
+                  Expected Graduation: 2028
+                </p>
+                <p>
+                  Bachelor of Science (BS) in Computer Science - A 4-year
+                  undergraduate program focused on the principles of computing,
+                  software development, data structures, algorithms, and system
+                  design. The program combines theoretical knowledge with
+                  practical skills in programming, databases, web development,
+                  and emerging technologies like AI and machine learning.
+                </p>
+              </li>
+
+              <li class="education" style="margin-top: 15px">
+                <h2>Aptech Learning Institute</h2>
+                <p style="margin-top: 5px; margin-bottom: 5px; font-size: 13px">
+                  2024 - 2025
+                </p>
+                <p>
+                  Diploma in Information System Management (DISM) - 1-year
+                  professional diploma program focused on IT fundamentals,
+                  including computer applications, system management, networking
+                  basics, and database handling.
+                </p>
+              </li>
+            </ul>
+            <h3 class="skills__subtitle">Development</h3>
+            <span class="skills__name">Html</span>
+            <span class="skills__name">Css</span>
+            <span class="skills__name">Javascript</span>
+            <span class="skills__name">Bootstrap5</span>
+            <span class="skills__name">jQuery</span>
+            <span class="skills__name">React</span>
+            <span class="skills__name">Php</span>
+            <span class="skills__name">MySQL</span>
+            <span class="skills__name">Laravel</span>
+            <span class="skills__name">E-Commerce </span>
+            <span class="skills__name">Git & GitHub </span>
+            <span class="skills__name">Web Design</span>
+            <span class="skills__name">Front-End Development</span>
+            <span class="skills__name">Responsive Web Design</span>
+
+            <h3 class="skills__subtitle">Design</h3>
+            <span class="skills__name">Figma</span>
+          </div>
+
+          <div class="skills__img">
+            <img src="assets/img/skill.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="assets/img/zestive.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://zestive.vercel.app/"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/medicare.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://medicare-alpha-gold.vercel.app"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/cool-car.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://cool-care.vercel.app/"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/breakout.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://breakout-game-7yhm.vercel.app"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/quiz-app.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://quiz-app-five-ecru.vercel.app"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/to-do-app.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://to-do-app-97ok.vercel.app"
+                target="_blank"
+                class="portfolio__link-name"
+                >View details</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Riyasat Ali</h2>
+          <p class="footer__text">
+            I'm Riyasat Ali and this is my personal website
+          </p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#resume" class="footer__link">Resume</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data footer__mobile-only">
+          <h2 class="footer__title">FOLLOW</h2>
+
+          <a
+            href="https://www.facebook.com/here.riyasatali"
+            class="facebook-footer footer-social"
+            ><i class="bx bxl-facebook footer-icon"></i
+          ></a>
+          <a
+            href="https://github.com/Riyasat-dev"
+            target="_blank"
+            class="github-footer footer-social"
+            ><i class="fab fa-github footer-icon"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/riyasatalishaikh/"
+            target="_blank"
+            class="linkedin-footer footer-social"
+            ><i class="fab fa-linkedin footer-icon"></i
+          ></a>
+          <a
+            href="https://wa.me/923183219259"
+            target="_blank"
+            class="whatsapp-footer footer-social"
+            ><i class="fab fa-whatsapp footer-icon"></i
+          ></a>
+          <a
+            href="https://www.upwork.com/freelancers/~017df9651c71fb4e25"
+            target="_blank"
+            class="upwork-footer footer-social"
+            ><i class="fab fa-upwork footer-icon"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
