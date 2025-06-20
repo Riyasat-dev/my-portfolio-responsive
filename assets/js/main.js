@@ -63,7 +63,7 @@ sr.reveal(".skills__subtitle", {});
 sr.reveal(".skills__name", { distance: "20px", delay: 50, interval: 100 });
 sr.reveal(".education", { delay: 400 });
 sr.reveal(".skills__img", { delay: 400 });
-sr.reveal(".footer-social", { delay: 400 });
+// sr.reveal(".footer-social", { delay: 400 });
 
 sr.reveal(".portfolio__img", { interval: 200 });
 
